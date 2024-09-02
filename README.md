@@ -43,11 +43,23 @@ The application retrieves temperature and humidity data from the ESP8266 and sav
     python data_logger.py
     ```
 
-3. The GUI window will appear. Enter the ESP8266 IP address and the desired time interval (in seconds) for data logging.
+3. The GUI window will appear:
 
-4. Click the "Start Logging" button to begin data collection. Click the "Stop Logging" button to stop data collection.
+<img width="272" alt="DHT11 Data Logger GUI" src="https://github.com/user-attachments/assets/fa89525f-1435-4878-a3a6-0f4a0c6bfb19">
 
-5. Data will be saved in a file named `DHT11_Info.csv` in the same directory as the script.
+4. Enter the ESP8266 IP address and the desired time interval (in seconds) for data logging.
+
+<img width="270" alt="DHT11 Data Logger GUI Info Added" src="https://github.com/user-attachments/assets/6935d102-f162-401e-b0c2-3b163f313c6b">
+
+5. Click the "Start Logging" button to begin data collection:
+
+<img width="446" alt="DHT11 Data Logger Logging" src="https://github.com/user-attachments/assets/8969e7d9-fd4b-4e01-8ba7-126852d4096f">
+
+6. Click the "Stop Logging" button to stop data collection:
+
+7. Data will be saved in a file named `DHT11_Info.csv` in the same directory as the script.
+<img width="125" alt="DHT11 Data Logger CSV" src="https://github.com/user-attachments/assets/882d34af-4bf2-4d00-bb16-8f462a3afa36">
+
 
 ## Code Description
 
